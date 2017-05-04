@@ -18,3 +18,5 @@ done
 ```
 
 Now place any script you want run at the next reboot (once only) in the directory `/etc/local/runonce.d` and `chown` and `chmod +x` it appropriately. Once it's been run, you'll find it moved to the `ran` subdirectory and the date and time appended to its name. There will also be an entry in your `syslog`.
+
+[Link Source][https://serverfault.com/questions/148341/linux-schedule-command-to-run-once-after-reboot-runonce-equivalent]
